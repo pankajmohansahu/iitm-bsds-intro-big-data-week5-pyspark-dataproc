@@ -1,0 +1,7 @@
+transaction_id,customer_id,transaction_date,transaction_amount,payment_mode,transaction_date_str,amount_category,transaction_month,txn_dup_rank,invalid_reason
+,c001,2025-02-10,5000.0,upi,2025-02-10,Medium,2,1,missing_transaction_id
+t0001,c104,2025-01-22,2291.0,wallet,2025-01-22,Low,1,2,duplicate_record
+t0002,c137,2025-01-04,9897.0,wallet,2025-01-04,High,1,2,duplicate_record
+tX01,,2025-02-12,4000.0,card,2025-02-12,Medium,2,1,missing_customer_id
+tX02,c050,2025-02-15,-300.0,wallet,2025-02-15,Low,2,1,non_positive_transaction_amount
+tX03,c020,,2000.0,cash,2025/02/30,Low,,1,invalid_transaction_date_format

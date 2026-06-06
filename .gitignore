@@ -1,8 +1,7 @@
 # Submission zip (redundant binary)
 *.zip
 
-# Submission folder (duplicate of root files)
-21f2001203_week-5_JAN_2026_IBD/
+# (submission folder included intentionally)
 
 # GCP personal reference file (contains project ID)
 instructions.txt
