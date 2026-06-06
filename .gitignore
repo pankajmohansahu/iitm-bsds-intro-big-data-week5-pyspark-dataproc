@@ -1,0 +1,12 @@
+# Submission zip (redundant binary)
+*.zip
+
+# Submission folder (duplicate of root files)
+21f2001203_week-5_JAN_2026_IBD/
+
+# GCP personal reference file (contains project ID)
+instructions.txt
+
+# OS
+.DS_Store
+Thumbs.db
